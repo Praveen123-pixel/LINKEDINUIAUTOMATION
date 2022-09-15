@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20220915 18:18:51.874" rpa="false" schemaversion="3">
+<suite id="s1" name="testCases" source="C:\Users\aayushi.kumari01\Downloads\RobotframeworkUiAutomation-20220909T161310Z-001\RobotframeworkUiAutomation\testCases">
+<suite id="s1-s1" name="LoginPage" source="C:\Users\aayushi.kumari01\Downloads\RobotframeworkUiAutomation-20220909T161310Z-001\RobotframeworkUiAutomation\testCases\LoginPage">
+<suite id="s1-s1-s1" name="Login Page" source="C:\Users\aayushi.kumari01\Downloads\RobotframeworkUiAutomation-20220909T161310Z-001\RobotframeworkUiAutomation\testCases\LoginPage\login_page.robot">
+<test id="s1-s1-s1-t1" name="Verify and login feature of app by right username and right password" line="15">
+<kw name="Launch The Application" library="utilities.config.Test_Config" type="SETUP">
+<status status="PASS" starttime="20220915 18:18:54.010" endtime="20220915 18:18:56.323"/>
+</kw>
+<kw name="When enter the username on username place holder" library="TestKeyword.login_page.Login_page">
+<arg>${USER_NAME1}</arg>
+<msg timestamp="20220915 18:18:56.515" level="INFO">User name entered sucessfully</msg>
+<status status="PASS" starttime="20220915 18:18:56.323" endtime="20220915 18:18:56.516"/>
+</kw>
+<kw name="And enter the password on password place holder" library="TestKeyword.login_page.Login_page">
+<arg>${PASS_WORD1}</arg>
+<status status="PASS" starttime="20220915 18:18:56.516" endtime="20220915 18:18:56.659"/>
+</kw>
+<kw name="Then verify the home page of application" library="TestKeyword.login_page.Login_page">
+<msg timestamp="20220915 18:19:02.026" level="INFO">Failed to log following message properly: !!!!!!!!!</msg>
+<status status="PASS" starttime="20220915 18:18:56.660" endtime="20220915 18:19:02.027"/>
+</kw>
+<kw name="Then click on sign in button" library="TestKeyword.login_page.Login_page">
+<msg timestamp="20220915 18:19:27.215" level="INFO">!!!!!!!!!!!!Home page verified !!!!!!!</msg>
+<status status="PASS" starttime="20220915 18:19:02.027" endtime="20220915 18:19:27.216"/>
+</kw>
+<kw name="Then verify the app is scrolling top to bottom to top" library="TestKeyword.login_page.Login_page">
+<status status="PASS" starttime="20220915 18:19:27.216" endtime="20220915 18:19:30.259"/>
+</kw>
+<kw name="Close The Application" library="utilities.config.Test_Config" type="TEARDOWN">
+<status status="PASS" starttime="20220915 18:19:30.260" endtime="20220915 18:19:30.559"/>
+</kw>
+<status status="PASS" starttime="20220915 18:18:54.009" endtime="20220915 18:19:30.559"/>
+</test>
+<status status="PASS" starttime="20220915 18:18:51.920" endtime="20220915 18:19:30.561"/>
+</suite>
+<status status="PASS" starttime="20220915 18:18:51.917" endtime="20220915 18:19:30.565"/>
+</suite>
+<status status="PASS" starttime="20220915 18:18:51.878" endtime="20220915 18:19:30.567"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="testCases">testCases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="LoginPage">testCases.LoginPage</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Login Page">testCases.LoginPage.Login Page</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
